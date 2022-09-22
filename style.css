@@ -1,0 +1,59 @@
+/*------------------
+    RESET
+------------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*------------------
+    COMMON
+------------------*/
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+header {
+    height: 30px;
+    background-color: aqua;
+}
+
+main {
+    height: calc(100% - 120px);
+    background-color: blueviolet;
+    width: 90%;
+    margin: auto;
+    /* overflow-y: auto; */
+}
+
+footer {
+    height: 90px;
+    background-color: bisque;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/*------------------
+    HEADER
+------------------*/
+.container {
+    max-width: 100%;
+    
+}
+.img {
+    width: calc(100% / 7 - 10px);
+    margin: 5px;
+    background-color: #fff;
+    border: 2px solid red;
+    
+}
+
+/*------------------
+    MAIN
+------------------*/
+
+/*------------------
+    FOOTER
+------------------*/
