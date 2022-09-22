@@ -30,11 +30,15 @@ main {
 
 footer {
     height: 90px;
-    background-color: bisque;
+    background-color: #222222;
 }
 .row {
     display: flex;
     flex-wrap: wrap;
+}
+
+i {
+    color: #fff;
 }
 /*------------------
     HEADER
@@ -55,7 +59,9 @@ footer {
     color: white;
 }
 .buttons {
-    margin: 0px 10px;
+    margin: 0px 5px;
+    justify-items: flex-end;
+    justify-content: flex-end;    /*<-----perchè non va?!*/
 }
 
 /*------------------
@@ -63,7 +69,8 @@ footer {
 ------------------*/
 .col {
     width: calc(100% / 7 - 10px);
-    margin: 5px;    
+    margin: 5px;  
+    position: relative;  
 }
 
 .container .img{
@@ -74,6 +81,25 @@ footer {
     width: 100%;
     display: block;
 }
+.desciprion {
+    background-color: #4a4a4a;
+    position: absolute;
+}
 /*------------------
     FOOTER
 ------------------*/
+.left {
+    width: 15%;
+}
+
+.center {
+    width: 75%;
+}
+
+.right {
+    width: 10%;
+    height: 90px;
+    background-color: #4a4a4a;
+    color: red;
+    text-align: center;
+}
