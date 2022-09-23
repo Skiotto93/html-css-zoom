@@ -40,6 +40,10 @@ footer {
 i {
     color: #fff;
 }
+
+section {
+    display: inline;
+}
 /*------------------
     HEADER
 ------------------*/
@@ -49,19 +53,20 @@ i {
 
 .speak {
     height: 30px;
+    width: 120px;
     align-content: center;
     background-color: #4a4a4a;
     color: white;
 }
 .expand {
     height: 30px;
+    width: 30px;
     background-color: #4a4a4a;
     color: white;
 }
 .buttons {
-    margin: 0px 5px;
-    justify-items: flex-end;
-    justify-content: flex-end;    /*<-----perchè non va?!*/
+    padding: 10px;
+    justify-content: flex-end;
 }
 
 /*------------------
@@ -69,21 +74,26 @@ i {
 ------------------*/
 .col {
     width: calc(100% / 7 - 10px);
-    margin: 5px;  
-    position: relative;  
-}
-
-.container .img{
-    height: 100%;
+    margin: 5px;
+    position: relative;
 }
 
 .dog {
     width: 100%;
     display: block;
+
 }
-.desciprion {
+.image {
+    flex-wrap: wrap;
+}
+
+.description {
     background-color: #4a4a4a;
+    opacity: 0.8;
+    padding: 5px;
     position: absolute;
+    bottom: 0;
+    left: 0;
 }
 /*------------------
     FOOTER
