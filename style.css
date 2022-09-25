@@ -97,10 +97,14 @@ i {
 ------------------*/
 .left {
     width: 15%;
+    display: flex;
+    justify-content: center;
 }
 
 .center {
     width: 75%;
+    display: flex;
+    justify-content: center;
 }
 
 .right {
@@ -108,5 +112,11 @@ i {
     height: 90px;
     background-color: #4a4a4a;
     color: red;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.btnfoot {
+    background-color: #4a4a4a;
+    color: #fff;
 }
