@@ -114,9 +114,15 @@ i {
     color: red;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btnfoot {
-    background-color: #4a4a4a;
+    background-color: inherit;
     color: #fff;
+    border: none;
+}
+
+.btnmargin {
+    margin-right: 10px;
 }
